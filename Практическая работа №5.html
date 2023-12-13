@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Практическая работа №5</title>
+    <style>
+        #wrap { 
+        width: 720px; 
+        height: 1280px; 
+        padding: 0; 
+        overflow: hidden;
+        margin-left: 300px; 
+    }
+    #frame { 
+        width: 720px; 
+        height: 1280px; 
+        border: 1px solid black;
+     }
+    #frame { 
+        -ms-zoom: 0.5;
+        -moz-transform: scale(0.5);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.5);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+    }
+    
+    iframe{
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+      </style>
+    <link rel="stylesheet" href="Libs/simple-adaptive-slider-js-Demian/css/main.min.css">
+    <!-- JS слайдера -->
+    <script defer src="Libs/simple-adaptive-slider-js-Demian/js/simple-adaptive-slider.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS слайдера -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // инициализация слайдера
+      var slider = new SimpleAdaptiveSlider('.slider', {
+        loop: false,
+        autoplay: false,
+        interval: 5000,
+        swipe: true,
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html#section-1">Обо мне</a>
+        <a href="index.html#section-2">Навыки</a>
+        <img src="Image/Logo.png" alt="Логотип">
+        <a href="index.html#section-3">Опыт</a>
+        <a href="index.html#section-4">Работы</a>
+    
+    </header>
+
+    <main>
+        <section id="section-1" style="background: #FFFFFF;">
+
+            <div class="block1">
+                <div id="wrap">
+                <iframe id="frame" src="Задания/Задание №5/Задание №5.html" height="720px" width="1280px"></iframe>
+                </div>
+
+                <div class="practicDescription" style="width: 500px; margin-bottom: 500px;">
+        
+                    <p>Практическая работа №5</p>
+                    <p style="font-size:18px">
+                        Анимация формы<br />
+                    </p><hr />
+                    <p style="font-size:18px">
+                        Требования к данной работе:<br />
+                        1. Создать в программе анимированный дизайн обложки книги, используя анимацию формы минимум 5-ти объектов 
+
+                        в 3-х разных переходных состояниях.
+                        <br />
+                        2. Создать в проекте анимацию формы с использованием хинтов кривых (контрольных точек анимации).
+                    </p>
+                </div>
+            </div>
+            
+        </section>
+        <section id="section-2" style="background: #50B5BF;">
+
+            <div class="block2">
+                        <div class="block2_header">Впечатления и идеи</div>
+                        <div class="block2_grid">
+                            <div class="block2_text">
+                                <p>В данной практической работе была изучен новый способ анимации в Adobe Animate, таким способом является "Анимация формы". На мой личный взгляд данный способ анимации крайне затруднителен и непредсказуем, вследствие чего невозможно предположить как Adobe Animate отрисует промежуточные кадры. Конечно, данный процесс можно контролировать, но данный контроль крайне неудобен и не практичен.</p>
+                            </div>
+                        </div>
+                        </div>
+            </div>
+
+        </section>
+        
+    </main>
+</body>
+</html>

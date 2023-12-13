@@ -1,0 +1,1 @@
+# simple-adaptive-slider.js

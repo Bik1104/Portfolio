@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="Libs/simple-adaptive-slider-js-Demian/css/main.min.css">
+    <!-- JS слайдера -->
+    <script defer src="Libs/simple-adaptive-slider-js-Demian/js/simple-adaptive-slider.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS слайдера -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // инициализация слайдера
+      var slider = new SimpleAdaptiveSlider('.slider', {
+        loop: false,
+        autoplay: false,
+        interval: 5000,
+        swipe: true,
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="#section-1">Обо мне</a>
+        <a href="#section-2">Навыки</a>
+        <img src="Image/Logo.png" alt="Логотип">
+        <a href="#section-3">Опыт</a>
+        <a href="#section-4">Работы</a>
+    
+    </header>
+
+    <main>
+        <section id="section-1" style="background: #FFFFFF;">
+            <div id="container_image">
+                <img id="navi" src="Image/Байков Иван.svg" alt="Байков Иван">
+                <div id="infoi" class="wrapper exmp2"></div>
+              </div>
+            
+        </section>
+        <section id="section-2" style="background: #50B5BF;">
+            <skill>
+                <img src="Image/You have a point.svg" height="500px" alt="You have a point">
+                <box_skill>
+                    <box_skill_header>
+                        Мои профессиональные навыки:
+                    </box_skill_header>
+                    <box_skill_grid>
+                        <div style="padding-right: 10px;">
+                        <box_skill_cell>Adobe Photoshop</box_skill_cell>
+                        <box_skill_cell>UX / UI</box_skill_cell>
+                        <box_skill_cell>Adobe InDesign</box_skill_cell>
+                        <box_skill_cell>Html, Css</box_skill_cell>
+                        <box_skill_cell>Python</box_skill_cell>
+                        <box_skill_cell>Иллюстрации, лого</box_skill_cell>
+                        </div>
+                        <div>
+                            <box_skill_cell>Adobe Illustrator</box_skill_cell>
+                            <box_skill_cell>Adobe Animate</box_skill_cell>
+                            <box_skill_cell>Figma</box_skill_cell>
+                            <box_skill_cell>Java</box_skill_cell>
+                            <box_skill_cell>Интерфейсы приложений</box_skill_cell>
+                            <box_skill_cell>Word, PowerPoint, Excel</box_skill_cell>
+                        </div>
+                    </box_skill_grid>
+                </box_skill>
+            </skill>
+        </section>
+        <section id="section-3" style="background: #DCCD9B;">
+            <experience>
+                <img src="Image/Rise up.svg" height="620px" alt="Rise up">
+                <box_experience>
+                    <box_experience_header>
+                        Мои профессиональные навыки:
+                    </box_experience_header>
+                    <box_experience_grid>
+                        <box_experience_cell>— Web-дизайн;</box_experience_cell>
+                        <box_experience_cell>— Векторная графика и иллюстрации;</box_experience_cell>
+                        <box_experience_cell>— Создание Web, Flash-сайтов;</box_experience_cell>
+                        <box_experience_cell>— Создание Flash- презентации;</box_experience_cell>
+                        <box_experience_cell>— Верстка сайтов;</box_experience_cell>
+                        <box_experience_cell>— Разработка рекламной продукции (буклетов, баннеров, логотипов);</box_experience_cell>
+                        <box_experience_cell>— SEO-продвижение;</box_experience_cell>
+                        <box_experience_cell>— Отладка навигации, подбор контента.</box_experience_cell>
+                    </box_experience_grid>
+                    </box_experience>
+                </experience>
+        </section>
+        <section id="section-4" style="background: #F3ECD8;">
+
+    <!-- Разметка слайдера -->
+    <div class="slider">
+        <div class="slider__wrapper">
+          <div class="slider__items">
+            <div class="slider__item">
+                <works>
+                    <div class="case">
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №1.html" style="padding-left: 173px; padding-top: 111px; border: 0;">
+                                <img src="Image/Задание-№1.gif" width="555px" alt="Практическая работа №1">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №1
+                            </div>
+                        </div>
+                
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №2.html" style="padding-left: 172px; padding-top: 72px; border: 0;">
+                                <img src="Image/Задание-A.gif" width="555px" alt="Практическая работа №2">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №2
+                            </div>
+                        </div>
+                
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №3.html" style="padding-left: 173px; padding-top: 111px; border: 0;">
+                                <img src="Image/Задание-№3.gif" width="555px" alt="Практическая работа №3">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №3
+                            </div>
+                        </div>
+                
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №4.html" style="padding-left: 173px; padding-top: 111px; border: 0;">
+                                <img src="Image/Задание-№4.gif" width="555px" alt="Практическая работа №4">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №4
+                            </div>
+                        </div>
+                    </div>
+                </works>
+            </div>
+            <div class="slider__item">
+                <works>
+                    <div class="case">
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №5.html" style="padding-left: 173px; padding-top: 111px; border: 0;">
+                                <img src="Image/Задание-№5_1.gif" height="312.82" alt="Практическая работа №5">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №5
+                            </div>
+                        </div>
+                
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №6.html" style="padding-left: 173px; padding-top: 111px; border: 0;">
+                                <img src="Image/Задание-№6.gif" width="555px" alt="Практическая работа №6">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №6
+                            </div>
+                        </div>
+                
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №7.html" style="padding-left: 173px; padding-top: 111px; border: 0;">
+                                <img src="Image/Задание-№7.gif" width="555px" alt="Практическая работа №7">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №7
+                            </div>
+                        </div>
+                
+                        <div class="container">
+                            <div class="box_1">
+                                <a href="Практическая работа №8.html" style="padding-left: 173px; padding-top: 111px; border: 0;">
+                                <img src="Image/Задание-№8.gif" width="555px" alt="Практическая работа №8">
+                                </a>
+                            </div>
+                            <div class="box_2">
+                                Практическая работа №8
+                            </div>
+                        </div>
+                    </div>
+                </works>
+            </div>
+          </div>
+        </div>
+        <a_slider class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a_slider>
+        <a_slider class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a_slider>
+      </div>
+        </section>
+    </main>
+</body>
+</html>
